@@ -1,5 +1,5 @@
 ## Welcome to Yu's presentations.
-Here you find presentations by Yu Wang in HTML5 formation.
+Here you find presentations by Yu Wang.
 Contact 📧 <Wang-y21@mails.tsinghua.edu.cn> with any problems.
 
 
