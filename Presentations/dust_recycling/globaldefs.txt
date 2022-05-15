@@ -1,0 +1,11 @@
+vdarkbg = #222
+darkbg = #444444
+footnote = font-size:24px
+footnote5 = font-size:24px;margin-top:-0.5em
+footnote2 = font-size:24px;margin-top:-1.5em;margin-bottom:-0.0em
+footnote0 = font-size:24px
+footnotetop = font-size:24px;margin-top:-1.5em;text-align:center
+comment = color:red
+textboxfill = background-color:rgba(200,0,150,0.2);padding:5px;margin:20px;border:3px dashed #a3238e;font-size:34px
+novsp = margin-bottom:0em;
+thulight = #a3238e

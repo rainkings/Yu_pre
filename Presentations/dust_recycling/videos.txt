@@ -1,0 +1,21 @@
+### preamble
+
+darkbg = #444444
+hicolor = #1b91ff
+thulight = #a3238e
+templdict = htmlTitle:Chris Presentation Tool Demonstrator
+redcolor = rgb(250,0,0);
+ivar = 0
+customstyle = color:rgb(250,100,0);font-size:25px;
+footnote = font-size:24px;margin-bottom:0.2em;
+envst2 = div|style|font-size:24px, par|style|$customstyle, eqi|opts|d180
+envst1 = par|style|font-size:20px, eqi|opts|wd160
+envC = div|style|color:$redcolor;border:2px solid red, par|style|color:$redcolor;border:2px solid red;
+
+### start
+
+===
+h2 :: St = 0
+vid :: out :: style=width:1000px;
+=== 
+
