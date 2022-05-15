@@ -8,3 +8,6 @@ ATMOSPHERIC RECYCLING
 
 2. [2021/11/19 THU](https://rainkings.github.io/Yu_pre/WangYu_seminar.pdf), Day–night cloud asymmetry prevents
 early oceans on Venus but not on Earth, seminar talk. 
+
+2. [2021/11/19 THU](https://rainkings.github.io/Yu_pre/videos), Day–night cloud asymmetry prevents
+early oceans on Venus but not on Earth, seminar talk. 
