@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Chris Presentation Tool Demonstrator</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../../Presentations/css/reveal.css">
+		<link rel="stylesheet" href="../../Presentations/css/chris.css">
+		<link rel="stylesheet" href="../../Presentations/css/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../Presentations/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../Presentations/css/print/pdf.css' : '../../Presentations/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="../lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+        <!-- 
+            <script type="text/javascript" async
+          src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+        </script>
+        -->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+
+</section>
+<section >
+<h2><span> St = 0</span></h2>
+<div class="container">
+<div class="container2">
+<video  style="width:1000px"controls loop><source src="../../videos/out.mp4" type="video/mp4"></video>
+</section>
+<section >
+</div><!-- container2 -->
+</div><!-- container -->
+
+</section>
+<!-- ENDTEMP -->
+
+
+        </div>
+
+		</div>
+
+		<script src="../../Presentations/lib/js/head.min.js"></script>
+		<script src="../../Presentations/js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+
+                width: "1600",
+                height: "900",
+//              margin: "0.03", // omit when printing!
+                minScale: '0.2',
+                maxScale: '2.5',
+
+				transition: 'none', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: '../../Presentations/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../../Presentations/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../../Presentations/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../../Presentations/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../../Presentations/plugin/search/search.js', async: true },
+					{ src: '../../Presentations/plugin/zoom-js/zoom.js', async: true },
+                //  { src: '../plugin/math/math.js', async: true }, //[20.06.23]CWO:dont want to use this one anymore
+					{ src: '../../Presentations/plugin/notes/notes.js', async: true }
+				]
+			});
+
+          // Reveal.configure({
+          //   keyboard: {
+          //     13: 'next', // go to the next slide when the ENTER key is pressed
+          //     27: function() {}, // do something custom when ESC is pressed
+          //     32: null // don't do anything when SPACE is pressed (i.e. disable a reveal.js default binding)
+          //   }
+          // });
+
+        // Shows the slide number using default formatting
+        Reveal.configure({ slideNumber: true });
+
+		</script>
+
+	</body>
+</html>
