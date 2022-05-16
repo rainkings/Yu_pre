@@ -16,6 +16,9 @@ envC = div|style|color:$redcolor;border:2px solid red, par|style|color:$redcolor
 
 ===
 h2 :: St = 0
-vid :: out :: style=width:1000px;
+vid :: fv0_17 :: style=width:1000px;
+=== 
+h2 :: St = 0.05
+vid :: st5e-2_dfdt0.3 :: style=width:1000px;
 === 
 
