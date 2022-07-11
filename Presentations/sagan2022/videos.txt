@@ -1,0 +1,45 @@
+### preamble
+
+darkbg = #444444
+hicolor = #1b91ff
+thulight = #a3238e
+templdict = htmlTitle:Chris Presentation Tool Demonstrator
+redcolor = rgb(250,0,0);
+ivar = 0
+customstyle = color:rgb(250,100,0);font-size:25px;
+footnote = font-size:24px;margin-bottom:0.2em;
+envst2 = div|style|font-size:24px, par|style|$customstyle, eqi|opts|d180
+envst1 = par|style|font-size:20px, eqi|opts|wd160
+envC = div|style|color:$redcolor;border:2px solid red, par|style|color:$redcolor;border:2px solid red;
+
+### start
+
+===
+h2 :: Sagan workshop 2022 supplementary video
+
+p :: This page is for supplementary material of Sagan workshop 2022 poster by *Yu Wang*. 
+p :: Please don't hesitate to contact us (<a href="mailto:wang-y21@mails.tsinghua.edu.cn">Email</a>) if you are interested!
+
+-----
+vvv 50% border=0%
+img :: sagan2022/two_fluid_schematic :: style=width:600px;
+
+vvv 
+img :: sagan2022/output50_fv :: style=width:600px;
+
+vvv 100%
+-----
+p :: style=font-size:20px ::  This case assumes a planet with mass ~ 2.3 
+eqi :: M_{\oplus} :: opts=d120
+located at 5 AU. All length scale is in unit of local disk scale height. \n
+Initially we run a simulation with pure H/He gas. After it reaches steady state, icy pebbles with density ratio of 0.01 to gas and stokes number (St) of 0.01 are injected from the outer boundary. We allow pebbles sublimation, but they *only condense to tiny dusts* with St = 0 considering slow collisional growth. \n
+This case examines how much water can be delivered by pebbles after the envelope's temperature is high enough to vaporize ice totally before it reaches the core.\n
+The simulation is shown in video in *next page*.
+=== 
+vid :: inject_d2g_1e-2 :: style=width:1000px;
+p :: style=font-size:20px :: Panel1: pebble (st = 0.01) density. Panel3: dust density (st = 0) \n
+Panel3: vapor fraction. Panel4: Temperature \n
+Icy pebbles are accreted by the planet and sublimate to water vapor. \n 
+Part of the vapor is advected to the inner region, whether the another is advected outside to condense to icy dusty grains again.
+=== 
+
