@@ -1,0 +1,70 @@
+### preamble
+
+darkbg = #444444
+hicolor = #1b91ff
+thulight = #a3238e
+templdict = htmlTitle:Poster supplimentary, Yu Wang
+redcolor = rgb(250,0,0);
+ivar = 0
+customstyle = color:rgb(250,100,0);font-size:25px;
+footnote = font-size:24px;margin-bottom:0.2em;
+envst2 = div|style|font-size:24px, par|style|$customstyle, eqi|opts|d180
+envst1 = par|style|font-size:20px, eqi|opts|wd160
+envC = div|style|color:$redcolor;border:2px solid red, par|style|color:$redcolor;border:2px solid red;
+
+### start
+===
+h1 :: Compositions of Atmospheres from Pebble Accretion: Hydrodynamic Approach
+p :: This page is for supplementary material of poster by *Yu Wang* & Chris Ormel. 
+p :: Please don't hesitate to contact us (<a href="mailto:wang-y21@mails.tsinghua.edu.cn">Email</a>) if you are interested.
+p :: FYI: The pdf version of the poster can be downloaded here.
+===
+h2 :: CASE1: Well-coupled icy dusts
+vvv 70% border=0%
+vid :: fv1.7e-1 :: style=width:1000px;
+
+vvv
+p :: style=text-align:left; font-size:30px ::  panel1: gas density; \n panel2: dust(St = 0) density; \n panel3: vapor fraction; \n panel4: temperature
+\n\n
+p :: style=text-align:left; font-size:30px ::  This case assumes a planet with mass ~ 2.3 
+eqi :: M_{\oplus} :: opts=d200
+located at 5 AU. All length scale is in unit of local disk scale height. \n
+Initial and boundary dust to gas ratio are both 0.2. St of dust is 0. The simulation reaches steady state.
+
+===
+h2 :: CASE2: H2O-Ice pebbles accreted onto hot H/He envelope
+
+-----
+vvv 50% border=0%
+img :: sagan2022/two_fluid_schematic :: style=width:600px;
+
+vvv 
+img :: sagan2022/output50_fv :: style=width:600px;
+
+vvv 100%
+-----
+p :: style=font-size:30px ::  This case assumes a planet with mass ~ 2.3 
+eqi :: M_{\oplus} :: opts=d200
+located at 5 AU. All length scale is in unit of local disk scale height. \n
+Initially we run a simulation with pure H/He gas. After it reaches steady state, icy pebbles with density ratio of 0.01 to gas and stokes number (St) of 0.01 are injected from the outer boundary. We allow pebbles sublimation, but they *only condense to tiny dusts* with St = 0 considering slow collisional growth. \n
+This case examines how much water can be delivered by pebbles after the envelope's temperature is high enough to vaporize ice totally before it reaches the core.\n
+The simulation is shown in video in *next 2 pages*.
+=== 
+vid :: inject_d2g_1e-2 :: style=width:1000px;
+p :: style=font-size:20px :: Panel1: pebble (st = 0.01) density. Panel3: dust density (st = 0) \n
+Panel3: vapor fraction. Panel4: Temperature \n
+Icy pebbles are accreted by the planet and sublimate to water vapor. \n 
+Part of the vapor is advected to the inner region, whether the another is advected outside to condense to icy dusty grains again.
+=== 
+vid :: inject_d2g_1e-2_profile :: style=width:1000px;
+p :: style=font-size:20px :: Radial profile evolution. All the quantity denotes fraction with respect to gas. 
+For example,
+eqi :: f_{\mathrm{vapor}} = \rho_{\mathrm{vapor}}/\rho_{\mathrm{gas}} :: opts=d200
+. \n 
+eqi :: f_{\mathrm{satur}} :: opts=d200
+denotes saturation vapor fraction curve. \n
+eqi :: f_{\mathrm{ice}} = f_{\mathrm{dust}} + f_{\mathrm{pebble}} :: opts=d200
+\n
+The simulation does not reach a real steady state as you can tell from the slowly increasing vapor fraction.
+
+
