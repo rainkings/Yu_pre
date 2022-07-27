@@ -21,3 +21,5 @@ embedded planet's envelope, IAS group meeting.
 5. [videos](https://rainkings.github.io/Yu_pre/Presentations/dust_recycling/videos.html)
 
 6. [Sagan workshop 2022 supplementaries](https://rainkings.github.io/Yu_pre/Presentations/sagan2022/videos.html)
+
+7. [Tuebingen 2022 supplementaries](https://rainkings.github.io/Yu_pre/Presentations/tuebingen2022/videos.html)
