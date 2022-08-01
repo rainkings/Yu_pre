@@ -17,7 +17,7 @@ envC = div|style|color:$redcolor;border:2px solid red, par|style|color:$redcolor
 h1 :: Compositions of Atmospheres from Pebble Accretion: Hydrodynamic Approach
 p :: This page is for supplementary material of poster by *Yu Wang* & Chris Ormel. 
 p :: Please don't hesitate to contact us (<a href="mailto:wang-y21@mails.tsinghua.edu.cn">Email</a>) if you are interested.
-p :: FYI: The pdf version of the poster can be downloaded here.
+p :: FYI: The pdf version of the poster can be downloaded :a:https://rainkings.github.io/Yu_pre/poster_tuebingen.pdf here:a:.
 ===
 h2 :: CASE1: Well-coupled icy dusts
 vvv 70% border=0%
