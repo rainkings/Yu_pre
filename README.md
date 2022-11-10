@@ -22,4 +22,4 @@ embedded planet's envelope, IAS group meeting.
 
 6. [2022/10/21 THU](https://rainkings.github.io/Yu_pre/Hot_Jupiter_cold_kinematics.pdf), Hot Jupiter, cold kinematics. The correlation between stellar phase space overdensity and Hot Jupiter's occurrency rate.
 
-6. [2022/11/10 UDE](https://rainkings.github.io/Yu_pre/2022_11_10_shared (Published)/index). UDE talk: "A newly developed phase change module in Athena++ and its applications in planet formation"
+7. [2022/11/10 UDE](https://rainkings.github.io/Yu_pre/2022_11_10_UDE/index). UDE talk: "A newly developed phase change module in Athena++ and its applications in planet formation"
