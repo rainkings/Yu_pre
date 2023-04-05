@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>PPVII supplementary -- Yu Wang</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="../../../Presentations/reveal-cpt0.4/dist/reset.css">
+		<link rel="stylesheet" href="../../../Presentations/reveal-cpt0.4/dist/reveal.css">
+		<link rel="stylesheet" href="../../../Presentations/reveal-cpt0.4/dist/theme/chris.css" id="theme">
+		<link rel="stylesheet" href="../../../Presentations/reveal-cpt0.4/dist/reveal-add.css">
+
+
+		<!-- Theme used for syntax highlighting of code -->
+        <!-- <link rel="stylesheet" href="plugin/highlight/monokai.css"> -->
+		<link rel="stylesheet" href="../../../Presentations/reveal-cpt0.4/plugin/highlight/zenburn.css">
+	</head>
+
+	<body>
+
+<div class="reveal">
+<div class="slides">
+
+
+</section>
+<section >
+<h2><span> Atmospheric recycling of volatiles by pebble-accreting planets &mdash; hydrodynamic study</span></h2>
+<p style="text-align:center"> Yu Wang<sup>1,<a href="mailto:wang-y21@mails.tsinghua.edu.cn">📧</a></sup>, Chris Ormel<sup>1</sup>, PingHui Huang<sup>2,3</sup>, Rolf Kuiper<sup>4</sup>
+</p>
+<p style="text-align:center;font-size:20px">   <sup>1</sup>Department of Astronomy, Tsinghua University <br>
+<span><sup>2</sup>University of Victoria <br></span>
+<span><sup>3</sup>Institute for Advanced Study, Tsinghua University <br></span>
+<span><sup>4</sup> Faculty of Physics, University of Duisburg-Essen</span>
+</p>
+<p style="text-align:center;margin-top:1.5em;margin-bottom:1.5em">  
+<span style="text-align:center;border:5px solid teal;padding:5px"><a href="PPVII-poster">PPVII-poster</a>    </span>
+<span><br></span>
+<span style="font-size:24px">download </span>
+</p>
+<p style="text-align:center"> <br> This work is just submitted. Contact us with any questions.
+</p>
+</section>
+<section >
+<h2><span> recycling-dominated</span></h2>
+<div class="row">
+<div class="column" style="width:40.0%">
+<span> Pebble-3.5au <br></span>
+<div class="container">
+<div class="container2">
+<video  style="width:500px" data-autoplay controls loop><source src="../../../videos/pebble-3.5au.mp4" type="video/mp4"></video>
+<div class="below" style="font-size:22px"><span> This run reaches a steady state vapor fraction of ~ 1%.</span>
+</div><!-- imcdiv -->
+</div><!-- container2 -->
+</div><!-- container -->
+</div><!-- vvv column-->
+<div class="column" style="width:40.0%">
+<span> fiducial <br></span>
+<div class="container">
+<div class="container2">
+<video  style="width:500px" data-autoplay controls loop><source src="../../../videos/pebble-4au.mp4" type="video/mp4"></video>
+<div class="below" style="font-size:22px"><span> This run reaches a steady state vapor fraction of ~ 1.5%.</span>
+</div><!-- imcdiv -->
+</div><!-- container2 -->
+</div><!-- container -->
+</div><!-- vvv column-->
+<div class="column" style="width:20.0%">
+<span><br><br></span>
+<div class="container">
+<div class="container2">
+<img  style="width:300px" data-src="../../../imagesPapers/colorbar.png">
+</div><!-- container2 -->
+</div><!-- container -->
+</div><!-- vvv column-->
+</div><!-- vvv row-->
+<div class="row">
+<div class="column" style="width:50.0%">
+</div>
+</div>
+</section>
+<section >
+<h2><span> vapor-dominated</span></h2>
+<div class="row">
+<div class="column" style="width:50.0%">
+<span> Pebble-5.0au <br></span>
+<div class="container">
+<div class="container2">
+<video  style="width:500px" data-autoplay controls loop><source src="../../../videos/pebble-5au.mp4" type="video/mp4"></video>
+</div><!-- container2 -->
+</div><!-- container -->
+</div><!-- vvv column-->
+<div class="column" style="width:50.0%">
+<span><br></span>
+<div class="container">
+<div class="container2">
+<img  style="width:800px" data-src="../../../imagesPapers/inject_a_semi_output.jpg">
+<div class="below" style="font-size:22px"><span> Characteristic outputs evolving with time. For right panels, the right red axis represents 5.0 and 6.0 au while the black left axis represents 3.5 and 4.0au. <strong>Left</strong>: clear divergence of R<sub>atm</sub> and R<sub>subl</sub>. <strong>Upper Right</strong>: vapor fraction.~ 1% for recycling-dominated runs while > 30% for vapor-dominated run. <strong>Bottom right</strong>: vapor mass. Circle: total vapor mass in the domain; Star: bound vapor mass within R<sub>atm</sub>.</span>
+</div><!-- imcdiv -->
+</div><!-- vvv column-->
+</div><!-- vvv row-->
+<div class="row">
+<div class="column" style="width:50.0%">
+</div><!-- container2 -->
+</div><!-- container -->
+</div>
+</div>
+</section>
+<!-- ENDTEMP -->
+
+</div> <!-- reveal -->
+</div> <!-- slides -->
+
+
+<script>
+
+function carousel(slideName,obj,delay) {
+  var i;
+  var x = document.getElementsByClassName(slideName);
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  obj.index++;
+  if (obj.index > x.length) {obj.index = 1}    
+  x[obj.index-1].style.display = "block";  
+  setTimeout(carousel, delay, slideName, obj, delay); // Change image every 2 seconds
+}
+</script> 
+
+<script src="../../../Presentations/reveal-cpt0.4/dist/reveal.js"></script>
+<script src="../../../Presentations/reveal-cpt0.4/plugin/zoom/zoom.js"></script>
+<script src="../../../Presentations/reveal-cpt0.4/plugin/notes/notes.js"></script>
+<script src="../../../Presentations/reveal-cpt0.4/plugin/search/search.js"></script>
+<script src="../../../Presentations/reveal-cpt0.4/plugin/markdown/markdown.js"></script>
+<script src="../../../Presentations/reveal-cpt0.4/plugin/highlight/highlight.js"></script>
+<script>
+
+// Also available as an ES module, see:
+// https://revealjs.com/initialization/
+    Reveal.initialize({
+   controls: true,
+   progress: true,
+   center: true,
+   hash: true,
+   width: "1600",
+   height: "900",
+   transition: "slide",
+   slideNumber: true,
+
+	// Learn about plugins: https://revealjs.com/plugins/
+	plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+	});
+
+</script>
+
+</body>
+</html>

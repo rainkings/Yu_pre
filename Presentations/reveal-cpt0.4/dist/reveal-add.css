@@ -1,0 +1,129 @@
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+/* determines the relative position 
+ * of text in lists (CWO) */
+.listtext {
+  position:relative;
+  left: 8px;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+/* Container holding only the image */
+.container2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* remove empty line (sometimes) below figure*/
+.img {
+    vertical-align:bottom;
+}
+
+:root {
+  --r-block-margin: 0px; /* margins must go! */
+} 
+
+
+/* for annotations on figures*/
+.arrowdiv {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Bottom center text */
+/* Margin, padding and border get reset in main reveal.css stylesheet. Useless to specifiy here*/
+.text-block {
+  position: absolute;
+}
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/* next follows a bunch of caption placements... */
+
+/* Bottom center text */
+.bottom-center {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 16px;
+  left: 8px;
+}
+
+.below {
+  position: relative;
+  bottom: 5px;
+}
+
+.above {
+  position: relative;
+  top: 0px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+/* top center text */
+.top-center {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  text-align:center;
+  transform: translate(-50%, -0%);
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 16px;
+  right: 8px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

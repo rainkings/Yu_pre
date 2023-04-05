@@ -1,0 +1,68 @@
+### preamble
+
+darkbg = #444444
+hicolor = #1b91ff
+thulight = #a3238e
+templdict = CPTtitle:PPVII supplementary -- Yu Wang
+redcolor = rgb(250,0,0);
+ivar = 0
+customstyle = color:rgb(250,100,0);font-size:25px;
+small = font-size:24px
+radgradient = radial-gradient(#983b25, #c7b213)
+envst2 = div|style|font-size:24px;, par|style|$customstyle, eqi|opts|d180
+envst1 = par|style|font-size:20px;, eqi|opts|wd160
+envC = div|style|color:$redcolor;border:2px solid red, par|style|color:$redcolor;border:2px solid red;
+hint = font-size:32px;border:5px solid #2a4;padding:5px;background-color:#afc5
+note = div|style|font-size:24px;border:3px solid #f50;padding:5px;background-color:#7775;, par|style|$small, eqi|opts|d180
+
+### start
+
+===
+h2  :: Atmospheric recycling of volatiles by pebble-accreting planets -- hydrodynamic study
+p   :: style=text-align:center :: Yu Wang<sup>1,<a href="mailto:wang-y21@mails.tsinghua.edu.cn">📧</a></sup>, Chris Ormel<sup>1</sup>, PingHui Huang<sup>2,3</sup>, Rolf Kuiper<sup>4</sup>
+p   :: \N :: style=text-align:center;font-size:20px :: <sup>1</sup>Department of Astronomy, Tsinghua University \n
+	<sup>2</sup>University of Victoria \n 
+	<sup>3</sup>Institute for Advanced Study, Tsinghua University \n
+	<sup>4</sup> Faculty of Physics, University of Duisburg-Essen
+	
+p   :: \N :: style=text-align:center;margin-top:1.5em;margin-bottom:1.5em
+       :a:PPVII-poster:a:    :: style=text-align:center;border:5px solid teal;padding:5px
+       \n
+       download :: style=$small
+p   :: style=text-align:center; :: \n This work is just submitted. Contact us with any questions.
+       
+===
+h2  :: recycling-dominated
+vvv 40%
+
+p  :: Pebble-3.5au \n
+vid :: pebble-3.5au :: opts=a :: style=width:500px;
+imc :: This run reaches a steady state vapor fraction of ~ 1%.
+
+vvv 40%
+
+p  :: fiducial \n
+vid :: pebble-4au :: opts=a :: style=width:500px;
+imc :: This run reaches a steady state vapor fraction of ~ 1.5%.
+
+vvv 20%
+\n\n
+img :: colorbar :: style=width:300px;
+
+
+vvv
+===
+h2  :: vapor-dominated
+vvv 50%
+
+p  :: Pebble-5.0au \n
+vid :: pebble-5au :: opts=a :: style=width:500px;
+
+vvv 50%
+\n
+img :: inject_a_semi_output :: style=width:800px;
+imc :: Characteristic outputs evolving with time. For right panels, the right red axis represents 5.0 and 6.0 au while the black left axis represents 3.5 and 4.0au. *Left*: clear divergence of R<sub>atm</sub> and R<sub>subl</sub>. *Upper Right*: vapor fraction.~ 1% for recycling-dominated runs while > 30% for vapor-dominated run. *Bottom right*: vapor mass. Circle: total vapor mass in the domain; Star: bound vapor mass within R<sub>atm</sub>.
+vvv
+
+
+
