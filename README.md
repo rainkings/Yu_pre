@@ -28,4 +28,4 @@ embedded planet's envelope, IAS group meeting.
 
 - [2022/11/10 UDE](https://rainkings.github.io/Yu_pre/2022_11_10_UDE/index). UDE talk: "A newly developed phase change module in Athena++ and its applications in planet formation"
 
-- [2023/4/10-16 Kyoto](https://rainkings.github.io/Yu_pre/PPVII). PPVII supplementary material.
+- [2023/4/10-16 Kyoto](https://rainkings.github.io/Yu_pre/Presentations/MyPresentations/PPVII/PPVII). PPVII supplementary material.
