@@ -22,8 +22,6 @@ deficient galaxies, galatic physics term talk.
 - [2022/06/10 THU](https://rainkings.github.io/Yu_pre/phase_change.pdf), Phase change process in
 embedded planet's envelope, IAS group meeting. 
 
-- [Tuebingen 2022 supplementaries](https://rainkings.github.io/Yu_pre/Presentations/tuebingen2022/videos.html)
-
 - [2022/10/21 THU](https://rainkings.github.io/Yu_pre/Hot_Jupiter_cold_kinematics.pdf), Hot Jupiter, cold kinematics. The correlation between stellar phase space overdensity and Hot Jupiter's occurrency rate.
 
 - [2022/11/10 UDE](https://rainkings.github.io/Yu_pre/2022_11_10_UDE/index). UDE talk: "A newly developed phase change module in Athena++ and its applications in planet formation"
